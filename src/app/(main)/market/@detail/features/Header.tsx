@@ -67,8 +67,8 @@ const Header = memo(() => {
         {t('addAgent')}
       </Button>
       <Flexbox align={'center'} gap={12} horizontal>
-        <Link aria-label={author} className={styles.author} href={homepage} target={'_blank'}>
-          @{author}
+        <Link aria-label={author} className={styles.author} href='#' target={''}>
+          @叫花鸡
         </Link>
         <time className={styles.time} dateTime={new Date(createAt).toISOString()}>
           {createAt}

@@ -84,14 +84,14 @@ const ShareModal = memo<ModalProps>(({ onCancel, open }) => {
         name: 'withBackground',
         valuePropName: 'checked',
       },
-      {
-        children: <Switch />,
-        hidden: tab !== Tab.Screenshot,
-        label: t('shareModal.withFooter'),
-        minWidth: undefined,
-        name: 'withFooter',
-        valuePropName: 'checked',
-      },
+      // {
+      //   children: <Switch />,
+      //   hidden: tab !== Tab.Screenshot,
+      //   label: t('shareModal.withFooter'),
+      //   minWidth: undefined,
+      //   name: 'withFooter',
+      //   valuePropName: 'checked',
+      // },
       {
         children: <Segmented options={imageTypeOptions} />,
         hidden: tab !== Tab.Screenshot,

@@ -20,13 +20,20 @@ config.rules['unicorn/prefer-number-properties'] = 0;
 
 config.overrides = [
   {
-    extends: ['plugin:mdx/recommended'],
+    // extends: ['plugin:mdx/recommended'],
+    extends: "next",
     files: ['*.mdx'],
     rules: {
-      '@typescript-eslint/no-unused-vars': 1,
+
       'no-undef': 0,
       'react/jsx-no-undef': 0,
-      'react/no-unescaped-entities': 0,
+      "@typescript-eslint/no-unused-vars": "off",
+      "react/jsx-no-useless-fragment": "off",
+      "unused-imports/no-unused-imports": "off",
+      "sort-keys-fix/sort-keys-fix": "off",
+      "no-unused-vars":"off",
+      "react/no-unescaped-entities": "off",
+      "@next/next/no-page-custom-font": "off"
     },
     settings: {
       'mdx/code-blocks': false,

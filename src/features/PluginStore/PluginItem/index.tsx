@@ -55,19 +55,22 @@ const PluginItem = memo<InstallPluginMeta>(({ identifier, homepage, author, type
         <Flexbox flex={1} gap={4} style={{ overflow: 'hidden', position: 'relative' }}>
           <Flexbox align={'center'} gap={8} horizontal>
             <Tooltip title={identifier}>
-              {homepage ? (
-                <Link className={styles.link} href={homepage} target={'_blank'}>
+              {/* {homepage ? (
+                <Link className={styles.link} href={homepage} target={'_blank'}>÷
                   <Paragraph className={styles.title} ellipsis={{ rows: 1 }}>
-                    {meta.title}
+                    {1}
                   </Paragraph>
                 </Link>
               ) : (
                 <Paragraph className={styles.title} ellipsis={{ rows: 1 }}>
                   {meta.title}
                 </Paragraph>
-              )}
+              )} */}
+              <Paragraph className={styles.title} ellipsis={{ rows: 1 }}>
+                  {meta.title}
+              </Paragraph>
             </Tooltip>
-            <PluginTag author={author} type={type} />
+            {/* <PluginTag author='叫花鸡' type={type} /> */}
           </Flexbox>
           <Paragraph className={styles.desc} ellipsis={{ rows: 1 }}>
             {meta.description}

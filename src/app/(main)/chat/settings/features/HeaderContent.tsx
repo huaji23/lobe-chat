@@ -43,7 +43,7 @@ export const HeaderContent = memo<{ mobile?: boolean; modal?: boolean }>(({ moda
 
   return (
     <>
-      <SubmitAgentButton modal={modal} />
+      {/* <SubmitAgentButton modal={modal} /> */}
       <Dropdown arrow={false} menu={{ items }} trigger={['click']}>
         {modal ? (
           <Button block icon={<Icon icon={HardDriveDownload} />}>

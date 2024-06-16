@@ -60,7 +60,7 @@ const PWAInstall = memo(() => {
   useEffect(() => {
     if (!canInstall || hidePWAInstaller) return;
 
-    if (isShowPWAGuide) {
+    if (false) {
       install();
     }
   }, [canInstall, hidePWAInstaller, isShowPWAGuide]);

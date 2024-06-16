@@ -59,7 +59,7 @@ const InboxWelcome = memo(() => {
         {
           showWelcomeSuggest && <>
             <AgentsSuggest mobile={mobile} />
-            <QuestionSuggest mobile={mobile} />
+            {/* <QuestionSuggest mobile={mobile} /> */}
           </>
         }
       </Flexbox>

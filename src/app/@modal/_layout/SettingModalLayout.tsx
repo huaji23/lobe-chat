@@ -59,7 +59,7 @@ const SettingModalLayout = memo<SettingLayoutProps>(
           width={'100%'}
         >
           {children}
-          <Footer />
+          {/* <Footer /> */}
         </Flexbox>
       </Flexbox>
     );

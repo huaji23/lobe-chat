@@ -60,7 +60,7 @@ const Layout = memo<LayoutProps>(({ children, category }) => {
         >
           {children}
         </Flexbox>
-        <Footer />
+        {/* <Footer /> */}
       </Flexbox>
     </Flexbox>
   );

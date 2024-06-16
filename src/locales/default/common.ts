@@ -1,7 +1,7 @@
 export default {
   about: '关于',
   advanceSettings: '高级设置',
-  appInitializing: 'LobeChat 启动中，请耐心等待...',
+  appInitializing: '聪明才基 启动中，请耐心等待...',
   autoGenerate: '自动补全',
   autoGenerateTooltip: '基于提示词自动补全助手描述',
   autoGenerateTooltipDisabled: '请填写提示词后使用自动补全功能',
@@ -199,7 +199,7 @@ export default {
     anonymousNickName: '匿名用户',
     billing: '账单管理',
     data: '数据存储',
-    defaultNickname: '社区版用户',
+    defaultNickname: '小菜鸡用户',
     discord: '社区支持',
     docs: '使用文档',
     email: '邮件支持',

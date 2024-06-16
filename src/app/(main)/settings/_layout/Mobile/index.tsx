@@ -8,7 +8,7 @@ const Layout = ({ children }: LayoutProps) => {
   return (
     <MobileContentLayout header={<Header />}>
       {children}
-      <Footer />
+      {/* <Footer /> */}
     </MobileContentLayout>
   );
 };

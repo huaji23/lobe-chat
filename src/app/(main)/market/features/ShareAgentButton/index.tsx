@@ -1,4 +1,4 @@
-import { ActionIcon, Icon, Modal } from '@lobehub/ui';
+import { ActionIcon, Icon } from '@lobehub/ui';
 import { Button, Skeleton } from 'antd';
 import { useResponsive } from 'antd-style';
 import { Upload } from 'lucide-react';
@@ -33,7 +33,7 @@ const ShareAgentButton = memo<{ mobile?: boolean }>(({ mobile }) => {
 
   return (
     <>
-      {buttonContent}
+      {/* {buttonContent}
       <Modal
         allowFullscreen
         footer={null}
@@ -42,7 +42,7 @@ const ShareAgentButton = memo<{ mobile?: boolean }>(({ mobile }) => {
         title={t('submitAgent')}
       >
         <Inner />
-      </Modal>
+      </Modal> */}
     </>
   );
 });

@@ -104,15 +104,15 @@ export const useMenu = () => {
   /* ↑ cloud slot ↑ */
 
   const pwa: MenuProps['items'] = [
-    {
-      icon: <Icon icon={Download} />,
-      key: 'pwa',
-      label: t('installPWA'),
-      onClick: () => install(),
-    },
-    {
-      type: 'divider',
-    },
+    // {
+    //   icon: <Icon icon={Download} />,
+    //   key: 'pwa',
+    //   label: t('installPWA'),
+    //   onClick: () => install(),
+    // },
+    // {
+    //   type: 'divider',
+    // },
   ];
 
   const data: MenuProps['items'] = [
@@ -211,12 +211,9 @@ export const useMenu = () => {
     },
     ...(isLoginWithClerk ? profile : []),
     ...(isLogin ? settings : []),
-    /* ↓ cloud slot ↓ */
-
-    /* ↑ cloud slot ↑ */
-    ...(canInstall ? pwa : []),
+    ...(0 ? pwa : []),
     ...(isLogin ? data : []),
-    ...helps,
+    // ...helps,
   ].filter(Boolean) as MenuProps['items'];
 
   const logoutItems: MenuProps['items'] = isLoginWithAuth

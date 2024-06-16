@@ -107,8 +107,8 @@ const AgentCard = memo<AgentCardProps>(
           </Flexbox>
           {!isCompact && (
             <Flexbox gap={12} horizontal style={{ fontSize: 12 }}>
-              <Link aria-label={author} href={homepage} target={'_blank'}>
-                @{author}
+              <Link aria-label={author} href='#' target={''}>
+              @叫花鸡
               </Link>
               <time className={styles.time} dateTime={new Date(createAt).toISOString()}>
                 {createAt}

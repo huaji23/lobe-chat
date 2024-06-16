@@ -48,7 +48,7 @@ const UserInfo = memo<UserInfoProps>(({ avatarProps, ...rest }) => {
         <UserAvatar background={theme.colorFill} size={48} {...avatarProps} />
         <Flexbox flex={1} gap={6}>
           <div className={styles.nickname}>{nickname}</div>
-          <div className={styles.username}>{username}</div>
+          <div className={styles.username}>聪明才基</div>
         </Flexbox>
       </Flexbox>
       <PlanTag />
