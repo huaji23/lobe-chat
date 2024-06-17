@@ -6,6 +6,7 @@ import { useTranslation } from 'react-i18next';
 import { CellProps } from '@/components/Cell';
 import { enableAuth } from '@/const/auth';
 import { DISCORD, DOCUMENTS, FEEDBACK } from '@/const/url';
+import { isServerMode } from '@/const/version';
 import { usePWAInstall } from '@/hooks/usePWAInstall';
 import { useUserStore } from '@/store/user';
 import { authSelectors } from '@/store/user/slices/auth/selectors';
@@ -105,8 +106,11 @@ export const useCategory = () => {
     },
     ...(isLoginWithClerk ? profile : []),
     ...(enableAuth ? (isLoginWithAuth ? settings : []) : settingsWithoutAuth),
+    /* ↓ cloud slot ↓ */
+
+    /* ↑ cloud slot ↑ */
     ...(0 ? pwa : []),
-    ...(isLogin ? data : []),
+    ...(isLogin && !isServerMode ? data : []),
     ...helps,
   ].filter(Boolean) as CellProps[];
 
