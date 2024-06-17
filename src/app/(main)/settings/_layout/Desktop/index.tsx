@@ -44,7 +44,7 @@ const Layout = memo<LayoutProps>(({ children, category }) => {
           {category}
         </Header>
       )}
-      <SettingContainer addonAfter={<Footer />}>{children}</SettingContainer>
+      {/* <SettingContainer addonAfter={<Footer />}>{children}</SettingContainer> */}
     </Flexbox>
   );
 });

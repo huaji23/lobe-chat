@@ -47,7 +47,7 @@ export const HeaderContent = memo<{ mobile?: boolean; modal?: boolean }>(({ moda
 
   return (
     <>
-      <SubmitAgentButton modal={modal} />
+      {/* <SubmitAgentButton modal={modal} /> */}
       {!isServerMode && (
         <Dropdown arrow={false} menu={{ items }} trigger={['click']}>
           {modal ? (
