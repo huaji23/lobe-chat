@@ -1,4 +1,4 @@
-import { GridShowcase } from '@lobehub/ui';
+import { GridShowcase, Logo } from '@lobehub/ui';
 import { PropsWithChildren } from 'react';
 import { Flexbox } from 'react-layout-kit';
 
