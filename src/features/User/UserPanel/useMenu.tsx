@@ -24,10 +24,11 @@ import urlJoin from 'url-join';
 import type { MenuProps } from '@/components/Menu';
 import {
   DISCORD,
-  DOCUMENTS,
+  DOCUMENTS_REFER_URL,
   EMAIL_SUPPORT,
   GITHUB_ISSUES,
   OFFICIAL_URL,
+  UTM_SOURCE,
   mailTo,
 } from '@/const/url';
 import { isServerMode } from '@/const/version';
