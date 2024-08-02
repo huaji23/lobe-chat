@@ -37,8 +37,8 @@ const Footer = memo<PropsWithChildren>(() => {
           width={'100%'}
         >
           <div style={{ textAlign: 'center' }}>
-            <Icon icon={MessageSquareHeart} /> {`${t('footer.title')} `}
-            <Link
+            {/* <Icon icon={MessageSquareHeart} /> {`${t('footer.title')} `} */}
+            {/* <Link
               aria-label={'star'}
               href={GITHUB}
               onClick={(e) => {
@@ -47,8 +47,8 @@ const Footer = memo<PropsWithChildren>(() => {
               }}
             >
               {t('footer.action.star')}
-            </Link>
-            {` ${t('footer.and')} `}
+            </Link> */}
+            {/* {` ${t('footer.and')} `}
             <Link
               aria-label={'feedback'}
               href={GITHUB_ISSUES}
@@ -58,8 +58,8 @@ const Footer = memo<PropsWithChildren>(() => {
               }}
             >
               {t('footer.action.feedback')}
-            </Link>
-            {' !'}
+            </Link> */}
+            {/* {' !'} */}
           </div>
         </Center>
       </Flexbox>
