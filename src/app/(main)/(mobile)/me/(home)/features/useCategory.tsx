@@ -91,24 +91,24 @@ export const useCategory = () => {
   ];
 
   const helps: CellProps[] = [
-    {
-      icon: Book,
-      key: 'docs',
-      label: t('document'),
-      onClick: () => window.open(DOCUMENTS, '__blank'),
-    },
-    {
-      icon: Feather,
-      key: 'feedback',
-      label: t('feedback'),
-      onClick: () => window.open(FEEDBACK, '__blank'),
-    },
-    {
-      icon: DiscordIcon,
-      key: 'discord',
-      label: 'Discord',
-      onClick: () => window.open(DISCORD, '__blank'),
-    },
+    // {
+    //   icon: Book,
+    //   key: 'docs',
+    //   label: t('document'),
+    //   onClick: () => window.open(DOCUMENTS, '__blank'),
+    // },
+    // {
+    //   icon: Feather,
+    //   key: 'feedback',
+    //   label: t('feedback'),
+    //   onClick: () => window.open(FEEDBACK, '__blank'),
+    // },
+    // {
+    //   icon: DiscordIcon,
+    //   key: 'discord',
+    //   label: 'Discord',
+    //   onClick: () => window.open(DISCORD, '__blank'),
+    // },
   ];
 
   const nextAuthSignOut: CellProps[] = [
