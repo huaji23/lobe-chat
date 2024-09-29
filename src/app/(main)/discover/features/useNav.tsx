@@ -48,11 +48,11 @@ export const useNav = () => {
         key: DiscoverTab.Models,
         label: t('tab.models'),
       },
-      {
-        icon: <Icon icon={BrainCircuit} size={iconSize} />,
-        key: DiscoverTab.Providers,
-        label: t('tab.providers'),
-      },
+      // {
+      //   icon: <Icon icon={BrainCircuit} size={iconSize} />,
+      //   key: DiscoverTab.Providers,
+      //   label: t('tab.providers'),
+      // },
     ],
     [t],
   );
