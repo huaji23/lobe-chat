@@ -1,5 +1,5 @@
 import { Icon } from '@lobehub/ui';
-import { Bot, Brain, BrainCircuit, House, Puzzle } from 'lucide-react';
+import { Bot, Brain, House, Puzzle } from 'lucide-react';
 import { usePathname } from 'next/navigation';
 import { ReactNode, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
